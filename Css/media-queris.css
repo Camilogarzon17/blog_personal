@@ -1,0 +1,105 @@
+@media screen and (min-width: 40em) and (max-width: 63.9em) {
+  .container-grid .blogs-main-new {
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+  }
+  .container-grid .info-containew {
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+  }
+  .blogs-img-news-container {
+    grid-row: 2;
+  }
+  .blogs-img-news-container img {
+    width: 150%;
+    margin-top: 40px;
+  }
+  .blogs-news-info-container h2 {
+    margin-top: 40px;
+  }
+
+  .blogs-news-info-container {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .blog-post-container .post-container {
+    max-width: 45%;
+    text-align: center;
+    margin-left: 30px;
+  }
+  .blogs-news-info-container {
+    margin-left: 0px;
+  }
+
+  .container-grid .perfil-main-new {
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+  }
+  .perfil-main-new {
+    display: inline-table;
+  }
+  .perfil-main-news-img {
+    grid-row: 3;
+  }
+  .perfil-main-news-img img {
+    width: auto;
+  }
+  .perfil-main-new h3 {
+    margin-top: auto;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .perfil-info-container p {
+    margin-left: 50px;
+  }
+  .blogs-news-info-container p {
+    margin-bottom: 35px;
+    line-height: 2;
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    word-break: break-all;
+  }
+  .post-container,
+  .info-container {
+    max-width: initial;
+    margin-top: 45px;
+  }
+  .contact-main-containner div {
+    display: inline-block;
+    width: auto;
+    height: 80px;
+  }
+  .perfil-proyects-container {
+    margin-top: -90px;
+  }
+  .home-body {
+    font-family: "Roboto Mono", monospace;
+    margin: auto;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-image: url(font/font-mobile.jpg);
+    background-size: cover;
+  }
+  main .contain-main {
+    margin-top: 35rem;
+  }
+  nav .profile-link a {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9em) {
+  .blogs-post-container .container-grid {
+    max-width: 95%;
+    grid-template-columns: 1fr;
+  }
+  .perfil-proyects-container .container-grid {
+    grid-template-columns: 1fr;
+  }
+}
